@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="ds.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Bree+Serif&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="main">
+            <h1>Welcome to my Game</h1>
+            <p>
+                For rules refer:<a href="https://en.wikipedia.org/wiki/Rock_paper_scissors">Click Here</a>
+            </p>
+
+        </div>
+        <div id="rock">
+            <button class="btn" id="Rock" onclick="generate_1()">
+                Rock
+            </button>
+        </div>
+        <div id="paper">
+            <button class="btn" id="Paper" onclick="generate_2()">
+                Paper
+            </button>
+        </div>
+        <div id="scissor">
+            <button class="btn" id="Scissor" onclick="generate_3()">
+                Scissor
+            </button>
+        </div>
+        <table id="score">
+            <tr>
+                <th colspan="2">Scores</th>
+            </tr>
+            <tr>
+                <td>You</td>
+                <td id="myscore">0</td>
+            </tr>
+            <tr>
+                <td>Comp</td>
+                <td id="compscore">0</td>
+            </tr>
+        </table>
+        <footer>
+            Copyright &copy; Gupta Associates all rights reserved
+        </footer>
+    </div>
+
+    <script src="game.js"></script>
+
+</body>
+
+</html>
