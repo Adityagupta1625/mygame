@@ -3,7 +3,9 @@ let comp_score=0;
 let Rock_btn=document.querySelector('#Rock');
 let Paper_btn=document.querySelector('#Paper');
 let Scissor_btn=document.querySelector('#Scissor');
-
+let name=prompt('Enter your Name:');
+let setname=document.getElementbyId('name');
+setname.innerText=name;
 // Rock_btn.addEventListener('click',generate_1());
 // Paper_btn.addEventListener('click',generate_2());
 // Scissor_btn.addEventListener('click',generate_3());
